@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tailwind tutorial</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="bg-slate-900 grid place-content-center h-screen">
+    <h1 class="text-white text-4xl m-6">Test</h1>
+    <div class="">
+      <!-- basic card -->
+      <div
+        class="p-6 max-w-sm mx-auto bg-white rounded-xl shadow-lg flex items-center space-x-4"
+      >
+        <div>
+          <img
+            class="h-12 w-12"
+            src="https://upload.wikimedia.org/wikipedia/commons/7/76/Physics_wallah_logo.jpg"
+            alt="logo"
+          />
+        </div>
+        <div class="text-2 xl font-medium text-black">
+          <div>
+            Tailwind CSS
+            <p class="text-slate-500 text-base">By PW Sir jiii</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- hover effext  -->
+    <button
+      class="bg-sky-500 mt-2 p-2 text-white text-base rounded-xl hover:bg-white hover:text-black"
+    >
+      Buy Now
+    </button>
+    <!-- responsiveness  -->
+    <div
+      class="text-white xl:text-red-600 lg:text-yellow-500 md:text-green-500 sm:text-red-600"
+    >
+      Lorem ipsum dolor sit.
+    </div>
+
+    <!-- making responsiveness card using above  -->
+    <div class="mt-3">
+      <div
+        class="max-w-sm mx-auto bg-white rounded-lg overflow-hidden md:max-w-2xl"
+      >
+        <div class="md:flex">
+          <div>
+            <img
+              class="h-48 w-full object-cover md:h-full md:w-48"
+              src="https://images.pexels.com/photos/2522657/pexels-photo-2522657.jpeg"
+              alt=""
+            />
+          </div>
+          <div class="p-8">
+            <div
+              class="uppercase tracking-wide text-sm text-indigo-500 font-semibold"
+            >
+              An Awesome Card
+            </div>
+            <a
+              href="#"
+              class="block mt-1 text-lg font-medium text-black hover:text-blue-700"
+              >its Lorem ipsum dolor sit amet
+              <span class="bg-yellow-400 p-[2px] px-[14px]"> consectetur</span>
+              adipisicing elit. Expedita, saepe?</a
+            >
+            <p class="mt-2 text-slate-500">Lorem ipsum dolor sit</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
